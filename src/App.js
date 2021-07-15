@@ -6,3 +6,10 @@ function App() {
 }
 
 export default App;
+
+// Global Panel
+// Files Panel
+// Branches Panel
+// Stash Panel
+// Diff Panel for resolving Merge conflicts
+// brew install lazygit
