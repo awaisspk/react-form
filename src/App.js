@@ -1,8 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
+import Basic from './components/Form.jsx';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Basic />
+    </div>
+  );
 }
 
 export default App;
