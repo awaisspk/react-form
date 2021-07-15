@@ -3,10 +3,13 @@ import useForm from './useForm.js';
 import Validate from './ValidateInfo.js';
 import './Form.css';
 
-const FormSignup = () => {
-  const [values, handleChange, handleSubmit, errors] = useForm(Validate);
+const FormSignup = ({ submitForm }) => {
+  const [values, handleChange, handleSubmit, errors] = useForm(
+    submitForm,
+    Validate
+  );
   return (
-    <div className="form-contact-right">
+    <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit}>
         <h1>
           Get started with us today! Create your account by filling out the
